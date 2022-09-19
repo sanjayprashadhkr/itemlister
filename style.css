@@ -1,0 +1,113 @@
+* {
+  font-family: "open sans", sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  font-size: 2rem;
+}
+html {
+  font-size: 10px;
+}
+
+header {
+  background-color: #51cf66;
+}
+
+.primary-heading {
+  padding: 2.4rem 0;
+  font-size: 5.2rem;
+  font-weight: 600;
+  color: white;
+}
+
+.secondary-heading {
+  font-size: 3.6rem;
+  font-weight: 500;
+  margin-bottom: 1.8rem;
+}
+
+.container {
+  margin: 9.6rem auto;
+  width: 120rem;
+  border: solid 1px #ced4da;
+  padding: 4.8rem;
+}
+
+.header-container {
+  width: 120rem;
+  padding: 2.4rem;
+  margin: 0 auto;
+  display: flex;
+  justify-content: space-between;
+}
+
+.items {
+  display: flex;
+  flex-direction: column;
+  gap: 1.8rem;
+  list-style: none;
+}
+
+.items li {
+  border: solid 1px #ced4da;
+  padding: 0.8rem;
+}
+
+.input-search {
+  padding: 0.8rem 1.6rem;
+  align-self: center;
+  width: 40%;
+}
+.submit-btn {
+  display: inline-block;
+  margin-left: 0.8rem;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  border: none;
+  font-weight: 500;
+  border-radius: 6px;
+  background-color: #495057;
+  color: white;
+  cursor: pointer;
+}
+.click-btn {
+  display: block;
+  width: 100%;
+  padding: 0.8rem 1.6rem;
+  font-size: 1.6rem;
+  border: none;
+  font-weight: 500;
+  background-color: #495057;
+  color: white;
+  cursor: pointer;
+  margin-top: 1.8rem;
+}
+.input-box {
+  font-size: 1.6rem;
+}
+.form-section {
+  margin-bottom: 3.6rem;
+}
+.list-item {
+  display: flex;
+  justify-content: space-between;
+}
+
+.close-btn {
+  border: none;
+  background-color: #fa5252;
+  width: 3.5rem;
+  cursor: pointer;
+  color: white;
+}
+
+/*
+--- 01 TYPOGRAPHY SYSTEM
+
+- Font sizes (px)
+10 / 12 / 14 / 16 / 18 / 20 / 24 / 30 / 36 / 44 / 52 / 62 / 74 / 86 / 98
+- Spacing system (px)
+2 / 4 / 8 / 12 / 16 / 24 / 32 / 48 / 64 / 80 / 96 / 128
+*/
